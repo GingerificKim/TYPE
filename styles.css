@@ -1,0 +1,66 @@
+body {
+	background-color: #e2e06b;
+	line-height: 1;
+    font-size: 5em;
+    overflow: hidden;
+}
+
+main {
+	transform: skewX(-30deg);
+	height: 100vh;
+}
+
+.letter-1 {
+	color:#d599e2;
+	font-family: 'Almarai', sans-serif;
+	font-size: 9.5em;
+	position: absolute;
+    transform: scale(-1,1) rotate(360deg);
+    z-index: 1;
+    left:435px;
+}
+
+.letter-2 {
+	color:#d599e2;
+	font-family: 'Almarai', sans-serif;
+	position: absolute;
+    font-size: 9.5em;
+    z-index: 1;
+    left:775px;
+}
+
+.letter-3 {
+	color:#d599e2;
+font-family: 'Dancing Script', cursive;
+	font-size: 9.5em;
+	position: absolute;
+    z-index: 1;
+transform: rotateY(3.142rad);
+    left:435px;
+}
+.letter-4 {
+	color:#d599e2;
+font-family: 'Dancing Script', cursive;
+	font-size: 9.5em;
+	position: absolute;
+    z-index: -1;
+    left:800px;
+}
+.letter-5 {
+	color:#522f58;
+	font-family: 'Covered By Your Grace', cursive;
+    font-size: 10em;
+    z-index: 3;
+    position:absolute;
+    left:800px;
+}
+
+.letter-6 {
+	color:#522f58;
+	font-family: 'Covered By Your Grace', cursive;
+    font-size: 2em;
+    z-index: 3;
+    position:absolute;
+    left:800px;
+    top:-20px;
+}
